@@ -17,7 +17,7 @@ session_start();
 </head>
 
 <body>
-  <center><h1 style="font-size: 30px">Utilizar o login e senha: douglas</h1></center>
+  <center><h1 style="font-size: 30px"></h1></center>
     <section class="hero is-success is-fullheight">
         <div class="hero-body">
             <div class="container has-text-centered">
