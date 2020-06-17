@@ -1,1 +1,465 @@
-Hello World
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="js/myJavascript.js"> </script>
+</head> 
+<body>
+    
+    <!-- Div que engloba toda a pág, n sei pq fiz isso -->
+    <div id="page">
+        <!-- Header que ficará fixo no topo do site -->
+        <div id="home">
+        <div class="cloud cloud_2">
+            <img src="images/cloud.png">   
+        </div>
+        <div class="cloud cloud_1">
+            <img src="images/cloud.png">   
+        </div>
+        <div class="cloud cloud_3">
+            <img src="images/cloud.png">   
+        </div>
+        <div class="cloud cloud_4">
+            <img src="images/cloud.png">   
+        </div>
+            <div class="city_image"></div>
+            <header class="header" id="header">
+                <div class="container">
+                    <div class="row" id="header_content">
+                        <div class="col col-3 col-g-2 col-m-6 col-p-6 mark" id="logo">
+                        <div class="logo_site">
+                            <a href="#">Host<span>Space</span></a>
+                        </div>
+                        </div>
+                        <div class="col col-6 col-sumir col-g-8 col-bg mark text-center" id="menu">
+                            <nav>
+                                <ul>
+                                    <li class="active"><a href="#">Home</a></li>
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">News</a></li>
+                                    <li><a href="#">Contact</a></li>  
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-m-6 col-p-6 col-navBar">
+                            <img style="float:right;cursor: pointer;" src="images/icon_navbar.png" alt="Icon NavBar">
+                        </div>
+                        <div class="col col-3 col-sumir col-g-2 mark" id="log__reg">
+                            <div class="login_reg">
+                                <a href="#">Login</a> / <a href="#">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div id="home_content">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col text-center">
+                            <div class="home_title">
+                                <h1>The Best Hosting Offers</h1>
+                            </div>
+                            <div class="home_text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="row">
+                        <div class="col">
+                            <div class="content_form">
+                                <div class="input_form" style="display: inline-block;">
+                                    <input type="text" style="width: 540px">
+                                    <div class="input_form_i" style="display: inline-block;" style="width: 140px">
+                                        <i></i>
+                                        .io
+                                    </div>
+                                </div>
+                                <div style="display: inline-block;">
+                                    <div class="input_form_button">
+                                        <i></i>
+                                        Search
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <section id="intro" class="blocoPadding text-center max-container"> 
+            <div class="container">
+                <div class="row">
+                    <div class="title">
+                        <h2>How to get started</h2>
+                    </div>
+                </div>
+                <div class="row row-margin">
+                    <!-- <div id="backgroundImageIntro"></div> -->
+                    <div class="col col-4 col-m-12 col-p-12 col-g-4 col-bottom">
+                        <div class="intro-item">
+                            <div class="intro-imagem">
+                                <div class="intro-icon">
+                                    <img src="images/icon_1.svg" alt="Icon 1">
+                                </div>
+                            </div>
+                            <div class="intro-text">
+                                <div class="intro-text-title">
+                                    <p>Buy your Domain</p>
+                                </div>
+                                <div class="intro-text-content text-content-p">
+                                    <p>Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-4 col-m-12 col-p-12 col-g-4 col-bottom">
+                        <div class="intro-item">
+                            <div class="intro-imagem active">
+                                <div class="intro-icon">
+                                    <img src="images/icon_2.svg" alt="Icon 2">
+                                </div>
+                            </div>
+                            <div class="intro-text">
+                                <div class="intro-text-title">
+                                    <p>Get your Hosting</p>
+                                </div>
+                                <div class="intro-text-content text-content-p">
+                                    <p>Ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Proin ac urna at lectus.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-4 col-m-12 col-p-12 col-g-4 col-bottom">
+                        <div class="intro-item">
+                            <div class="intro-imagem">
+                                <div class="intro-icon">
+                                    <img src="images/icon_3.svg" alt="Icon 3">
+                                </div>
+                            </div>
+                            <div class="intro-text">
+                                <div class="intro-text-title">
+                                    <p>Set your Website</p>
+                                </div>
+                                <div class="intro-text-content text-content-p">
+                                    <p>Suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Proin ac urna at lectus volutpat lobortis.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="intro-button">
+                        <a href="#">Start from $9.90/month</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="services" class="blocoPadding text-center max-container">
+            <div class="container">
+                <div class="row">
+                    <div class="title">
+                        <h2>Our Services</h2>
+                    </div>
+                </div>
+                <div class="row row-margin">
+                    <div class="col col-4 col-m-12 col-p-12 col-g-4 col-bottom">
+                        <div class="service">
+                            <div class="service-icone">
+                                <img src="images/icon_4.svg" alt="Icon 4">
+                            </div>
+                            <div class="service-title">
+                                <h3>Cloud Backup</h3>
+                            </div>
+                            <div class="service-text">
+                                <p class="text-content-p">Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis ege.</p>
+                            </div>
+                            <div class="service-button col-center">
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-4 col-m-12 col-p-12 col-g-4 col-bottom">
+                        <div class="service">
+                            <div class="service-icone">
+                                <img src="images/icon_5.svg" alt="Icon 5">
+                            </div>
+                            <div class="service-title">
+                                <h3>Cloud Backup</h3>
+                            </div>
+                            <div class="service-text">
+                                <p class="text-content-p">Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis ege.</p>
+                            </div>
+                            <div class="service-button col-center">
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-4 col-m-12 col-p-12 col-g-4 col-bottom">
+                        <div class="service">
+                            <div class="service-icone">
+                                <img src="images/icon_6.svg" alt="Icon 6">
+                            </div>
+                            <div class="service-title">
+                                <h3>Cloud Backup</h3>
+                            </div>
+                            <div class="service-text">
+                                <p class="text-content-p">Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis ege.</p>
+                            </div>
+                            <div class="service-button col-center">
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="blocoPadding text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="pricing-div">
+                            <div class="col-p-12 col-m-6 col-3 col-g-3 pricing-width border-right">
+                                <div class="pricing-body">
+                                    <div class="pricing-title">
+                                        <h3>Starter Pack</h3>
+                                    </div>
+                                    <div class="pricing-content">
+                                        <div class="pricing-title-price">
+                                            <p>$ 9.90 <span>/Month</span></p>
+                                        </div>
+                                        <div class="pricing-benefits">
+                                            <ul>
+                                                <li class="check-ok"> <img src="images/ok.png" alt="OK"><span> 50 GB Disk Space</span></li>
+                                                <li class="check-ok"><img src="images/ok.png" alt="OK"><span> 1 sub-domain</span></li>
+                                                <li class="check-ok"><img src="images/ok.png" alt="OK"><span> 5 E-mail Accounts</span></li>
+                                                <li><img src="images/x.png" alt="X"><span> 24/7 Support</span></li>
+                                                <li><img src="images/x.png" alt="X"><span> Control Panel</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="pricing-button">
+                                            <a href="#">Buy Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-p-12 col-m-6 col-3 col-g-3 pricing-width border-right">
+                                <div class="pricing-body">
+                                    <div class="pricing-title">
+                                        <h3>Basic Pack</h3>
+                                    </div>
+                                    <div class="pricing-content">
+                                        <div class="pricing-title-price">
+                                            <p>$ 19.90 <span>/Month</span></p>
+                                        </div>
+                                        <div class="pricing-benefits">
+                                            <ul>
+                                                <li class="check-ok"> <img src="images/ok.png" alt="OK"><span> 50 GB Disk Space</span></li>
+                                                <li class="check-ok"><img src="images/ok.png" alt="OK"><span> 1 sub-domain</span></li>
+                                                <li class="check-ok"><img src="images/ok.png" alt="OK"><span> 5 E-mail Accounts</span></li>
+                                                <li><img src="images/x.png" alt="X"><span> 24/7 Support</span></li>
+                                                <li><img src="images/x.png" alt="X"><span> Control Panel</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="pricing-button">
+                                            <a href="#">Buy Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-p-12 col-m-6 col-3 col-g-3 pricing-width border-right">
+                                <div class="pricing-body">
+                                    <div class="pricing-title">
+                                        <h3>Premium Pack</h3>
+                                    </div>
+                                    <div class="pricing-content">
+                                        <div class="pricing-title-price">
+                                            <p>$ 39.90 <span>/Month</span></p>
+                                        </div>
+                                        <div class="pricing-benefits">
+                                            <ul>
+                                                <li class="check-ok"> <img src="images/ok.png" alt="OK"><span> 50 GB Disk Space</span></li>
+                                                <li class="check-ok"><img src="images/ok.png" alt="OK"><span> 1 sub-domain</span></li>
+                                                <li class="check-ok"><img src="images/ok.png" alt="OK"><span> 5 E-mail Accounts</span></li>
+                                                <li class="check-ok"><img src="images/ok.png" alt="OK"><span> 24/7 Support</span></li>
+                                                <li><img src="images/x.png" alt="X"><span> Control Panel</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="pricing-button">
+                                            <a href="#">Buy Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pricing-width col-p-12 col-m-6 col-g-3 col-3">
+                                <div class="pricing-body">
+                                    <div class="pricing-title">
+                                        <h3>Pro Pack</h3>
+                                    </div>
+                                    <div class="pricing-content">
+                                        <div class="pricing-title-price">
+                                            <p>$ 59.90 <span>/Month</span></p>
+                                        </div>
+                                        <div class="pricing-benefits">
+                                            <ul>
+                                                <li class="check-ok"> <img src="images/ok.png" alt="OK"><span> 50 GB Disk Space</span></li>
+                                                <li class="check-ok"><img src="images/ok.png" alt="OK"><span> 1 sub-domain</span></li>
+                                                <li class="check-ok"><img src="images/ok.png" alt="OK"><span> 5 E-mail Accounts</span></li>
+                                                <li class="check-ok"><img src="images/ok.png" alt="OK"><span> 24/7 Support</span></li>
+                                                <li class="check-ok"><img src="images/ok.png" alt="OK"><span> Control Panel</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="pricing-button">
+                                            <a href="#">Buy Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="choose">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-6 col-g-6 col-sumir">
+                        <div class="choose-img">
+                            <img src="images/choice.png" alt="Why choose us">
+                        </div>
+                    </div>
+                    <div class="col col-6 col-g-6">
+                        <div class="choose_content">
+                            <div class="title">
+                                <h2>Why choose us?</h2>
+                            </div>
+                            <div class="choose-text">
+                                <p class="text-content-p">Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col col-3 col-g-3 col-p-3 col-m-3 icones">
+                                    <div class="choose-icon">
+                                        <img src="images/icon_7.svg" alt="Icon 7">
+                                    </div>
+                                    <div class="choose-text-icon text-center">
+                                        Marketing
+                                    </div>
+                                </div>
+                                <div class="col col-3 col-g-3 col-p-3 col-m-3 icones">
+                                    <div class="choose-icon">
+                                        <img src="images/icon_8.svg" alt="Icon 8">
+                                    </div>
+                                    <div class="choose-text-icon text-center">
+                                        Stats
+                                    </div>
+                                </div>
+                                <div class="col col-3 col-g-3 col-p-3 col-m-3 icones">
+                                    <div class="choose-icon">
+                                        <img src="images/icon_9.svg" alt="Icon 9">
+                                    </div>
+                                    <div class="choose-text-icon text-center">
+                                        Servers 
+                                    </div>
+                                </div>
+                                <div class="col col-3 col-g-3 col-p-3 col-m-3 icones">
+                                    <div class="choose-icon">
+                                        <img src="images/icon_10.svg" alt="Icon 10">
+                                    </div>
+                                    <div class="choose-text-icon text-center">
+                                        Quality
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="sep col-sep">
+            <div class="container">
+                <div class="row">
+                    <div class="p-bottom col-7 col-g-7 col-m-12 text-center">
+                        <div class="title">
+                            <h2>Start building your website now!</h2>
+                        </div>
+                    </div>
+                    <div class="col-5 col-g-5 col-m-12">
+                        <div class="row">
+                            <div class="col col-6 col-g-6 col-m-12 text-center">
+                                <div class="price-sep col-sep-mod">
+                                    from <span>$9.90</span> /month
+                                </div>
+                            </div>
+                            <div class="col col-3 col-g-3 col-m-12 col-sep-b text-center">
+                                <div class="button-sep">
+                                    <a href="#">Start Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer-section">
+            <div class="container footer">
+                <div class="row">
+                    <div class="col col-2">
+                        <div class="footer-title">
+                            <div class="title">
+                                <h2>Host <span>Space</span> </h2>
+                            </div>
+                            <p>Copyright ©2018 All rights reserved | This template is made with heart by <a href="#">Colorlib</a> </p>
+                        </div>
+                        <div class="footer-p">
+                            <p class="text-content-p">Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis.</p>
+                        </div>
+                        <div class="footer-form">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col col-2">
+                                        <input type="text">
+                                    </div>
+                                    <div class="col col-2">
+                                        <input type="text">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="footer-send-button">
+                                            <a href="#"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col col-4">
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+
+
+</body>
+</html>
